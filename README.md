@@ -7,7 +7,7 @@ Simple bash script to notify the system user to connect/disconnect the charger t
 2. run the crontab -e
 3. put the following commands as schedule
 
-5 * * * * cd $HOMe/gspeak && $HOME/gspeak/BatteryNotifier.sh >> $HOME/gpeak/log.txt
+@reboot cd $HOME/gspeak && $HOME/gspeak/BatteryNotifier.sh >> $HOME/gspeak/log.txt
 
 # This will work only for linux & Mac
 
