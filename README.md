@@ -12,3 +12,16 @@ Simple bash script to notify the system user to connect/disconnect the charger t
 # This will work only for linux & Mac
 
 Credit: https://github.com/Glutanimate/simple-google-tts
+
+# Know Issues:
+- Sorry, there is no default audio device configured
+  solutuion -
+
+```bash
+sudo apt install libsox-fmt-all
+```
+More https://github.com/sreuter/node-speakable/issues/18
+
+- (snd_pcm_dmix_open) unable to open slave
+
+  solution - https://dev.to/setevoy/linux-alsa-lib-pcmdmixc1108sndpcmdmixopen-unable-to-open-slave-38on
